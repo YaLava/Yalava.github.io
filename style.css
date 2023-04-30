@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/bauhaus-93');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: white;
+    user-select:none;
+    font-family: 'Bauhaus 93', sans-serif;
+                                                
+}

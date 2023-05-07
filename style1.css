@@ -22,6 +22,7 @@
 
 }
 .logo{
+    size: 30px;
     width: 50px;
     cursor: pointer;
 }
@@ -29,6 +30,9 @@
     width: 30px;
     cursor: pointer;
     margin-left: 40px;
+}
+.menu-icon:hover{
+    transform: scale(1.1);
 }
 nav{
     flex: 1;
@@ -85,12 +89,24 @@ button{
 .card1{
     background-image: url(images/pic-1.png);
 }
+.card1:hover{
+    transform: scale(1.1);
+}
 .card2{
     background-image: url(images/pic-2.png);
+}
+.card2:hover{
+    transform: scale(1.1);
 }
 .card3{
     background-image: url(images/pic-3.png);
 }
+.card3:hover{
+    transform: scale(1.1)
+}
 .card4{
     background-image: url(images/pic-4.png);
+}
+.card4:hover{
+    transform: scale(1.1);
 }
